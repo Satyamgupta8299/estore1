@@ -1,0 +1,34 @@
+.side-nav{
+    margin-top: 1rem;
+    padding: 0.6rem;
+    box-shadow: 1px 0px 14px 0px lightgray;
+    height: 97%;
+    border-radius: 1rem;
+  }
+  .section-title{
+    padding: 1rem;
+    h3{
+      text-align: center;
+    }
+  }
+  .individual-category{
+    a{
+      text-decoration: none;
+    }
+    ul{
+      padding: 0;
+    .sub-items{
+      list-style-type: none;
+      text-align: center;
+      a{
+        text-decoration: none;
+        color: black;
+      }
+    }
+    }
+    .price-filter-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
